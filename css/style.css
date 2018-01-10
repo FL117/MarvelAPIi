@@ -1,0 +1,90 @@
+body{
+    background: #000;
+    background-image: url("img/Marvel.png");
+    background-size: 1200px 500px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+	text-align: center;
+}
+
+h1{
+  text-align: center;
+  font-size: 60px;
+  color: #f0141e;
+}
+
+form{
+  margin:auto;
+  text-align: center;
+}   
+
+ul{
+
+}
+
+li{
+  padding: 20px;
+  max-width: 300px;
+}
+
+label{
+    color: grey;
+}
+
+#hero{
+    font: bold;
+}
+
+#text2{
+    background-color: lightgrey;
+    color: brown;
+    font: bold;
+}
+
+.container{
+  position: relative;
+  width: 50%;
+}
+
+.image{
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+/*
+.overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.container:hover .image{
+  opacity: 0.3;
+}
+
+.container:hover .overlay{
+  opacity: 1;
+}
+
+.text2{
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  top: 150px;
+  left:150px;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}*/
